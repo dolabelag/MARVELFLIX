@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" type="text/css" href="css/styleDestaque.css">
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/dolabelag/MARVELFLIX/main/img/LogoMarvel.png" type="image/x-icon">
+  <title>MARVELFLIX | Em Destaque</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand text-light" href="index.html">
+        <img src="https://raw.githubusercontent.com/dolabelag/MARVELFLIX/main/img/LogoMarvel.png" width="40">MARVELFLIX
+      </a>
+      <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-light"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav mt-2 ml-auto mr-auto  mt-lg-0 ">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-light">Lançamentos</a>
+          </li>
+          <li class="nav-item">
+            <a href="destaque.html" class="nav-link text-light">Em Destaque</a>
+          </li>
+          <li class="nav-item">
+            <a href="avaliacoes.html" class="nav-link text-light">Avaliações</a>
+          </li>
+          <li class="nav-item">
+            <a href="making of.html" class="nav-link text-light">Bastidores</a>
+          </li>
+          <li class="nav-item">
+            <a href="novidades.html" class="nav-link text-light">Novidades</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-search my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <section id="destaque">
+    <div class="container">
+      <h2 class="display-8">Em Destaque</h2>
+      <div class="mb-3 d-flex justify-content-between flex-wrap">
+        <select class="custom-select col-md-2">
+          <option selected>TODOS</option>
+          <option value="1">Aventura</option>
+          <option value="2">Ação</option>
+          <option value="3">Comédia</option>
+          <option value="4">Romance</option>
+          <option value="5">Suspense</option>
+          <option value="6">Terror</option>
+        </select>
+        <form class="form-inline my-2 my-lg-0">
+          <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="O que você procura?">
+          <button class="btn btn-search my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+      <div class="row">
+
+        <div class="col-md-3">
+          <img src="https://raw.githubusercontent.com/dolabelag/MARVELFLIX/main/img/destaque1.png" class="img-fluid">
+          <div class="card-body mt-1 p-2">
+            <h4 class="card-title">Black Widow</h4>
+            <p class="card-text text-justify">
+              Descubra mais sobre o passado de Natasha Romanoff enquanto experiencia uma aventura fresquinha.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="https://raw.githubusercontent.com/dolabelag/MARVELFLIX/main/img/destaque2.png" class="img-fluid">
+          <div class="card-body mt-1 p-2">
+            <h4 class="card-title">WandaVision</h4>
+            <p class="card-text text-justify">
+              Wanda está totalmente sozinha junto de Vision, e agora tentam viver uma vida normal, mas nada normal.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="https://raw.githubusercontent.com/dolabelag/MARVELFLIX/main/img/destaque3.png" class="img-fluid">
+          <div class="card-body mt-1 p-2">
+            <h4 class="card-title">LOKI</h4>
+            <p class="card-text text-justify">
+              Ele é um mentiroso sem igual, um manipulador fracassado, mas amado por todos, qual será a próxima mentira que ele contará pra se salvar.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <img src="https://raw.githubusercontent.com/dolabelag/MARVELFLIX/main/img/destaque4.png" class="img-fluid">
+          <div class="card-body mt-1 p-2">
+            <h4 class="card-title">Gavião Arqueiro</h4>
+            <p class="card-text text-justify">
+              Clint está tendo que lidar com uma adolescente aspirante a vingadora, agora ele deve lutar pra proteger a vida de ambos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-5">
+        <a class="btn btn-sm me-md-2 btn-back" href="index.html">Voltar</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="p-2 col-md-12">
+    <div class="container d-flex justify-content-center">
+      <p class="text-light">
+        Copyright &copy; 2022 | Disciplina Desenvolvimento de Interfaces Web | <b>ICEI PUC Minas</b> | <a
+          class="text-light text-decoration-none" href="https://github.com/dolabelag">Gabreil Dolabela</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
